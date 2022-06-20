@@ -6,7 +6,13 @@ namespace EmpWage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            {
+              GetemployeeAttandance program = new GetemployeeAttandance();
+                program.GetEmployeeAttandance();
+
+            }
+
+           
         }
     }
 }
