@@ -17,14 +17,16 @@ namespace EmpWage
         {
             int Totalwage = 0;
             int WagePerHr = 20;
+            int NumberOfDaysPerMonth = 20;
+            for (int i = 0; i < NumberOfDaysPerMonth; i++)
+            {
+                Random random = new Random();
+                int number = random.Next(0, 3);
+                Program program = new Program();
+                int empHrs = program.GetEmpHrs(number);
 
-            Random random = new Random();
-            int number = random.Next(0, 3);
-            Program program = new Program();
-            int empHrs = program.GetEmpHrs(number);
-
-            Totalwage = Totalwage + WagePerHr * empHrs;
-
+                Totalwage = Totalwage + WagePerHr * empHrs;
+            }
             Console.WriteLine("Total wage is " + Totalwage);
         }
 
