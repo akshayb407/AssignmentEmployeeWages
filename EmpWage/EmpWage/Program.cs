@@ -6,9 +6,11 @@ namespace EmpWage
     {
         static void Main(string[] args)
         {
-            EmployeeAttendance attendance = new EmployeeAttendance();
-            attendance.getAttendance();
+            EmployeeWage employeeWage = new EmployeeWage();
+
+            employeeWage.GetEmployeeWage("tata", 100, 200, 300);
         }
     }
+    
 }
 

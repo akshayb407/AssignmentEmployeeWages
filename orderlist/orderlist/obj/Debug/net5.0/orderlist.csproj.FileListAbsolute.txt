@@ -1,5 +1,0 @@
-H:\EmployeeWages\orderlist\orderlist\obj\Debug\net5.0\orderlist.csproj.AssemblyReference.cache
-H:\EmployeeWages\orderlist\orderlist\obj\Debug\net5.0\orderlist.GeneratedMSBuildEditorConfig.editorconfig
-H:\EmployeeWages\orderlist\orderlist\obj\Debug\net5.0\orderlist.AssemblyInfoInputs.cache
-H:\EmployeeWages\orderlist\orderlist\obj\Debug\net5.0\orderlist.AssemblyInfo.cs
-H:\EmployeeWages\orderlist\orderlist\obj\Debug\net5.0\orderlist.csproj.CoreCompileInputs.cache
