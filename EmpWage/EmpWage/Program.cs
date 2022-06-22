@@ -6,9 +6,13 @@ namespace EmpWage
     {
         static void Main(string[] args)
         {
-            EmployeeWage employeeWage = new EmployeeWage();
+            EmployeeWage dMart = new EmployeeWage("dMart", 20, 2, 10);
+            EmployeeWage Tata = new EmployeeWage("Tata", 30, 4, 20);
+            dMart.computeEmpWage();
+            Console.WriteLine(dMart.tostring());
+            Tata.computeEmpWage();
+            Console.WriteLine(Tata.tostring());
 
-            employeeWage.GetEmployeeWage("tata", 100, 200, 300);
         }
     }
     
